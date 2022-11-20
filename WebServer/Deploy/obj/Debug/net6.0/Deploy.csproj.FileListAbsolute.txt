@@ -1,0 +1,12 @@
+D:\Genz\WebServer\Deploy\bin\Debug\net6.0\Deploy.deps.json
+D:\Genz\WebServer\Deploy\bin\Debug\net6.0\Deploy.dll
+D:\Genz\WebServer\Deploy\bin\Debug\net6.0\Deploy.pdb
+D:\Genz\WebServer\Deploy\obj\Debug\net6.0\Deploy.csproj.AssemblyReference.cache
+D:\Genz\WebServer\Deploy\obj\Debug\net6.0\Deploy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Genz\WebServer\Deploy\obj\Debug\net6.0\Deploy.AssemblyInfoInputs.cache
+D:\Genz\WebServer\Deploy\obj\Debug\net6.0\Deploy.AssemblyInfo.cs
+D:\Genz\WebServer\Deploy\obj\Debug\net6.0\Deploy.csproj.CoreCompileInputs.cache
+D:\Genz\WebServer\Deploy\obj\Debug\net6.0\Deploy.dll
+D:\Genz\WebServer\Deploy\obj\Debug\net6.0\refint\Deploy.dll
+D:\Genz\WebServer\Deploy\obj\Debug\net6.0\Deploy.pdb
+D:\Genz\WebServer\Deploy\obj\Debug\net6.0\ref\Deploy.dll

@@ -1,0 +1,17 @@
+version: '2'
+services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    container_name: nginx-proxy
+    ports:
+      - 80:80
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    environment:
+      - VIRTUAL_HOST=localhost
+      - HTTPS_METHOD=noredirect # Avoid force https redirect if the self signed certificate exist
+
+networks:
+  default:
+    external:
+      name: local-nginx-rproxy

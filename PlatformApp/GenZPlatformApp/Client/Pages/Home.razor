@@ -1,0 +1,26 @@
+﻿@page "/"
+@inject HttpClient HttpClient;
+@using GenzPlatformApp.Data.Model;
+@using System.Text.Json;
+@*@inject Blazored.LocalStorage.ILocalStorageService localstorage*@
+
+<button @onclick = "GetMyAppData" ></button>
+
+@code {
+
+    int User = 1;
+    List<DeployedDetails> UserDeployedAppList = new List<DeployedDetails>();
+
+    protected async Task GetMyAppData()
+    {
+        UserDeployedAppList = await HttpClient.GetFromJsonAsync<List<DeployedDetails>>($"Home/UserDeployedApps/{User}");
+    }
+
+    //if (await localstorage.GetItemAsync<string>("User") is null) 
+    //    {
+
+    //        await localstorage.SetItemAsync("User", JsonSerializer.Serialize(User));
+
+    //}
+
+}

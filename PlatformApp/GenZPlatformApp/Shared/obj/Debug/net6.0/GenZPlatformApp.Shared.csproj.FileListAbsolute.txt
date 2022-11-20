@@ -1,0 +1,12 @@
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\bin\Debug\net6.0\GenZPlatformApp.Shared.deps.json
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\bin\Debug\net6.0\GenZPlatformApp.Shared.dll
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\bin\Debug\net6.0\GenZPlatformApp.Shared.pdb
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\obj\Debug\net6.0\GenZPlatformApp.Shared.csproj.AssemblyReference.cache
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\obj\Debug\net6.0\GenZPlatformApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\obj\Debug\net6.0\GenZPlatformApp.Shared.AssemblyInfoInputs.cache
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\obj\Debug\net6.0\GenZPlatformApp.Shared.AssemblyInfo.cs
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\obj\Debug\net6.0\GenZPlatformApp.Shared.csproj.CoreCompileInputs.cache
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\obj\Debug\net6.0\GenZPlatformApp.Shared.dll
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\obj\Debug\net6.0\refint\GenZPlatformApp.Shared.dll
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\obj\Debug\net6.0\GenZPlatformApp.Shared.pdb
+D:\Genz\PlatformApp\GenZPlatformApp\Shared\obj\Debug\net6.0\ref\GenZPlatformApp.Shared.dll

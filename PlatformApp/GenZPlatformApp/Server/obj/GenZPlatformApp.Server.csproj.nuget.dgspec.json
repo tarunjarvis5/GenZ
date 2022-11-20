@@ -1,0 +1,360 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Server\\GenZPlatformApp.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj",
+        "projectName": "GenZPlatformApp.Client",
+        "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj",
+        "packagesPath": "C:\\Users\\TARUN\\.nuget\\packages\\",
+        "outputPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TARUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj": {
+                "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj"
+              },
+              "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj": {
+                "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj"
+              },
+              "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj": {
+                "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.3, 6.0.3]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj",
+        "projectName": "GenZPlatformApp.Data",
+        "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj",
+        "packagesPath": "C:\\Users\\TARUN\\.nuget\\packages\\",
+        "outputPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TARUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj",
+        "projectName": "GenZPlatformApp.UIComponents",
+        "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj",
+        "packagesPath": "C:\\Users\\TARUN\\.nuget\\packages\\",
+        "outputPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TARUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Server\\GenZPlatformApp.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Server\\GenZPlatformApp.Server.csproj",
+        "projectName": "GenZPlatformApp.Server",
+        "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Server\\GenZPlatformApp.Server.csproj",
+        "packagesPath": "C:\\Users\\TARUN\\.nuget\\packages\\",
+        "outputPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TARUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj": {
+                "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj"
+              },
+              "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj": {
+                "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj",
+        "projectName": "GenZPlatformApp.Shared",
+        "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\TARUN\\.nuget\\packages\\",
+        "outputPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TARUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
