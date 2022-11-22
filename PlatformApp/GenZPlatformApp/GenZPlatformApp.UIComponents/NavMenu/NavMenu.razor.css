@@ -1,66 +1,95 @@
 ﻿
 .navigation {
-    
-    background-color: rgb(63,238,230);
-    width: auto;
-    height: fit-content;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    background-color: rgb(255,255,255);
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0;
+    box-shadow: 0 8px 6px -6px rgb(0,0,0,0.2);
+    justify-content: space-around;
 }
 
     .navigation ul {
-        
         list-style-type: none;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
     }
 
-    .navigation ul li {
-    
-        position : relative;
-        z-index : 1;
-        
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    position: relative;
+    z-index: 1;
+}
+
+    .navigation ul li a {
+        font-weight: bold;
+        color: #000;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        cursor: pointer;
     }
 
-        .navigation ul li a {
-            font-weight: bold;
-            color: rgb(238,63,71);
-            display: flex;
+        .navigation ul li a .icon {
             position: relative;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+            font-size: 30px;
+            transition: 0.5s;
+            opacity: 0;
+            font-weight: bold;
         }
 
-            .navigation ul li a .icon {
-            
-                position : relative;
-                font-size : 30px;
-                transition : 0.5s;
-                opacity : 0;
-
-            }
-
-            .navigation ul li:hover a .icon {
+        /*.navigation ul li:hover a .icon {
                 
                 transform : translateY(5px);
                 opacity : 1;
-            }
+            }*/
 
         .navigation ul li a .text {
-        
-            position : absolute;
-            transition : 0.5s;
-            opacity : 1;
+            opacity: 0;
         }
 
-        .navigation ul li:hover a .text {
-            
-            opacity : 0;
-            
-        }
+.navigation-list {
+    margin: 0;
+    padding: 0;
+}
 
-            
+    .navigation-list ul li {
+        display: flex;
+    }
+
+.navigation-list-container {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+ion-icon {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    display: flex;
+}
+
+    a.active > * {
+        opacity: 1;
+    }
+
+    a.active > span {
+        opacity: 1;
+    }
+
+.navigation ul li a {
+    display: flex;
+}
+
+    .navigation ul li a.active {
+        display: flex;
+    }

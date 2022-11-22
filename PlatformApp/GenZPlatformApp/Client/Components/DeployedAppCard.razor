@@ -1,4 +1,4 @@
-﻿<div class="card deployed-app">
+﻿<div class="card deployed-app @appsclassborder">
     <div class="d-flex w-100">
         <div>
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -17,8 +17,12 @@
     <div class="application-description">
         This is an application to submit ideas,This is an application to submit ideas,This is an application to submit ideas
     </div>
+    <div class="d-flex justify-content-end link-color">
+        <button type="button" class="btn btn-outline-danger mx-3">Stop</button>
+        <button type="button" class="btn btn-success">Start</button>
+    </div>
 </div>
 
 @code {
-
+    [Parameter] public string appsclassborder { get; set; }
 }
