@@ -324,6 +324,7 @@ article{
 a{
     display: flex !important;
     padding: 2px;
+    text-decoration:none;
 }
 a > span{
     padding: 2px;
