@@ -1,4 +1,5 @@
-﻿using GenZPlatformApp.Server.Data;
+﻿using GenzPlatformApp.Data.Model;
+using GenZPlatformApp.Server.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GenZPlatformApp.Server.Controllers
@@ -23,7 +24,13 @@ namespace GenZPlatformApp.Server.Controllers
             return Ok(Apps_lst);
         }
 
-        
-    
-}
+        [HttpGet("Users")]
+        public List<User> GetUsers()
+        {
+            List<User> users = db.Users.ToList();   
+
+            return users;
+        }
+
+    }
 }
