@@ -20,6 +20,22 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/HP/source/repos/GenZ/PlatformApp/GenZPlatformApp/Client/Components/DeployedAppCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZXBsb3llZEFwcENhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/GenZ/PlatformApp/GenZPlatformApp/Client/Components/Deployments.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZXBsb3ltZW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/GenZ/PlatformApp/GenZPlatformApp/Client/Components/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9maWxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/GenZ/PlatformApp/GenZPlatformApp/Client/Components/UserCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVc2VyQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HP/source/repos/GenZ/PlatformApp/GenZPlatformApp/Client/Pages/Apps.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

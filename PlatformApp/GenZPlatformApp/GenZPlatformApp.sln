@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenZPlatformApp.Client", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenZPlatformApp.Shared", "Shared\GenZPlatformApp.Shared.csproj", "{6B6CBDD5-0C70-4C7B-8B8B-F928CC559B76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenZPlatformApp.UIComponents", "GenZPlatformApp.UIComponents\GenZPlatformApp.UIComponents.csproj", "{25E9C7EA-3B12-4836-A0C3-26E5B7EB12BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenZPlatformApp.UIComponents", "GenZPlatformApp.UIComponents\GenZPlatformApp.UIComponents.csproj", "{25E9C7EA-3B12-4836-A0C3-26E5B7EB12BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenZPlatformApp.Data", "GenZPlatformApp.Data\GenZPlatformApp.Data.csproj", "{3EA1C5E5-C25E-4942-B4F1-BFFFA9816B1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenZPlatformApp.Data", "GenZPlatformApp.Data\GenZPlatformApp.Data.csproj", "{3EA1C5E5-C25E-4942-B4F1-BFFFA9816B1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
