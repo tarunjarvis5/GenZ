@@ -15,5 +15,7 @@ namespace GenZPlatformApp.Data.Model
         public string AppName { get; set; }
         [Required(ErrorMessage ="Custom Url should not be empty")]
         public string CustomUrl { get; set; }
+
+        public int UserId { get; set; }
     }
 }

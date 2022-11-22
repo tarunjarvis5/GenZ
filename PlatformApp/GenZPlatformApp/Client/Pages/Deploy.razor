@@ -1,4 +1,6 @@
 ﻿@page "/deploy"
+@using GenZPlatformApp.Data.Model
+@inject HttpClient HttpClient;
 @inherits GenZPlatformApp.Client.ViewModels.DeployedDetailsBase;
 
 <div class="deploy-form">
@@ -40,8 +42,12 @@
     </EditForm>
 </div>
 @code {
-    private async Task OnValidSubmit(EditContext context)
+
+    private async Task OnValidSubmit()
     {
-        var link = DeployFormModel.GitHubLink;
+        DeployFormModel.UserId = 1;
+
+        await HttpClient.PostAsJsonAsync<DeployFormModel>("Deploy/DeployApp" , DeployFormModel);
     }
+
 }
