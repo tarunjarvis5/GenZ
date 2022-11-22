@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ANxa/BAxXA5KdF5e1BejG3QApTBa9A4Hsuus4fzystk=",
+  "Hash": "6R+fqLYnO48h/XgCf/sDNufKFo0rhWQbHGDfBYSNdcE=",
   "Source": "GenZPlatformApp.Data",
   "BasePath": "_content/GenZPlatformApp.Data",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "GenZPlatformApp.Data\\wwwroot",
       "Source": "GenZPlatformApp.Data",
-      "ContentRoot": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\wwwroot\\",
       "BasePath": "_content/GenZPlatformApp.Data",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\bundle\\GenZPlatformApp.Data.styles.css",
+      "Identity": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\bundle\\GenZPlatformApp.Data.styles.css",
       "SourceId": "GenZPlatformApp.Data",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/GenZPlatformApp.Data",
       "RelativePath": "GenZPlatformApp.Data.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\bundle\\GenZPlatformApp.Data.styles.css"
+      "OriginalItemSpec": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\bundle\\GenZPlatformApp.Data.styles.css"
     },
     {
-      "Identity": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GenZPlatformApp.Data.bundle.scp.css",
+      "Identity": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GenZPlatformApp.Data.bundle.scp.css",
       "SourceId": "GenZPlatformApp.Data",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GenZPlatformApp.Data",
       "RelativePath": "GenZPlatformApp.Data.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GenZPlatformApp.Data.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GenZPlatformApp.Data.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\wwwroot\\background.png",
+      "Identity": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\wwwroot\\background.png",
       "SourceId": "GenZPlatformApp.Data",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\wwwroot\\",
       "BasePath": "_content/GenZPlatformApp.Data",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\wwwroot\\exampleJsInterop.js",
+      "Identity": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\wwwroot\\exampleJsInterop.js",
       "SourceId": "GenZPlatformApp.Data",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\wwwroot\\",
       "BasePath": "_content/GenZPlatformApp.Data",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",

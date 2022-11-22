@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj": {}
   },
   "projects": {
-    "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj": {
+    "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj",
         "projectName": "GenZPlatformApp.Client",
-        "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj",
-        "packagesPath": "C:\\Users\\TARUN\\.nuget\\packages\\",
-        "outputPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Client\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\Client\\GenZPlatformApp.Client.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\Client\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TARUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,20 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj": {
-                "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj"
+              "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj": {
+                "projectPath": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj"
               },
-              "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj": {
-                "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj"
+              "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj": {
+                "projectPath": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj"
               },
-              "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj": {
-                "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj"
+              "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj"
               }
             }
           }
@@ -74,14 +79,15 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.3, 6.0.3]"
+              "version": "[6.0.11, 6.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -89,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -98,17 +104,21 @@
         }
       }
     },
-    "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj": {
+    "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj",
         "projectName": "GenZPlatformApp.Data",
-        "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj",
-        "packagesPath": "C:\\Users\\TARUN\\.nuget\\packages\\",
-        "outputPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\GenZPlatformApp.Data.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TARUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,6 +126,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -145,7 +156,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -154,21 +166,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj": {
+    "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj",
         "projectName": "GenZPlatformApp.UIComponents",
-        "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj",
-        "packagesPath": "C:\\Users\\TARUN\\.nuget\\packages\\",
-        "outputPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\GenZPlatformApp.UIComponents.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TARUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -176,6 +192,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -205,7 +222,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -214,21 +232,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj": {
+    "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj",
         "projectName": "GenZPlatformApp.Shared",
-        "projectPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj",
-        "packagesPath": "C:\\Users\\TARUN\\.nuget\\packages\\",
-        "outputPath": "D:\\Genz\\PlatformApp\\GenZPlatformApp\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\Shared\\GenZPlatformApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TARUN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -236,6 +258,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -259,7 +282,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -268,7 +292,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
