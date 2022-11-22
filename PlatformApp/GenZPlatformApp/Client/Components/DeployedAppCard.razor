@@ -1,4 +1,7 @@
-﻿<div class="card deployed-app @appsclassborder">
+﻿@inject NavigationManager NavManager
+
+<a href=@url target="_blank">
+<div class="card deployed-app @appsclassborder">
     <div class="d-flex w-100">
         <div>
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -7,7 +10,7 @@
         </div>
         <div class="fw-bold mx-2 application-heading d-flex justify-content-between w-100">
             <div>
-                Ideation Web Application
+                @AppName
             </div>
             <div class="version-description">
                 Version : 1.2.3
@@ -15,14 +18,27 @@
         </div>
     </div>
     <div class="application-description">
-        This is an application to submit ideas,This is an application to submit ideas,This is an application to submit ideas
+        This is an application ,This is an application for demo,This is an application demo project.
     </div>
     <div class="d-flex justify-content-end link-color">
-        <button type="button" class="btn btn-outline-danger mx-3">Stop</button>
-        <button type="button" class="btn btn-success">Start</button>
+        @*<button type="button" class="btn btn-outline-danger mx-3">Stop</button>
+        <button type="button" class="btn btn-success">Start</button>*@
     </div>
 </div>
+</a>
 
 @code {
+
     [Parameter] public string appsclassborder { get; set; }
+
+    [Parameter] public string AppName { get; set; }
+
+    [Parameter] public string url { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        string a = $"http://{url}.localhost";
+        url = a;
+    }
+
 }

@@ -38,11 +38,38 @@ namespace GenZPlatformApp.Server.Controllers
             dB.DeployedDetails.Add(deployedDetails);
             dB.SaveChanges();
 
-            var request1 = (HttpWebRequest)WebRequest.Create(url);
-            request1.GetResponse();
+            try
+            {
+                var request1 = (HttpWebRequest)WebRequest.Create(url);
+                request1.GetResponse();
+            }
+            catch (Exception ex)
+            { 
+                //
+            }
+        }
+
+
+        [HttpGet("DeployedApps")]
+        public List<DeployedDetails> GetAllDeployedApp()
+        {
+
+            List<DeployedDetails> deployedDetails = dB.DeployedDetails.ToList();
+
+            return deployedDetails;
 
         }
 
+
+        [HttpGet("DeployedApps/{id}")]
+        public List<DeployedDetails> GetDeployedAppById(int id)
+        {
+
+            List<DeployedDetails> deployedDetails = dB.DeployedDetails.Where( o => o.UserId == id).ToList();
+
+            return deployedDetails;
+
+        }
 
 
     }
