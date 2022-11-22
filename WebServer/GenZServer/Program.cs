@@ -13,7 +13,7 @@ namespace GenZServer
             DeploymentManager.Deployer deployer = new DeploymentManager.Deployer();
 
 
-            
+
 
             Route.Add("/{containername}/{imagename}/{customurl}/{githubLink}", (req, res, props) =>
             {
