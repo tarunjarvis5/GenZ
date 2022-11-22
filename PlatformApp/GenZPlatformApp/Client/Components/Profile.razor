@@ -1,5 +1,64 @@
-﻿<h3>Profile</h3>
+﻿@inject NavigationManager NavManager;
 
+<div class="profile card container">
+    <div class="d-flex border-1 w-50 margin-right-2">
+        <div class="profile-image-container">
+            <div class="profile-image">
+
+            </div>
+        </div>
+        <div class="details-container w-100">
+            <div class="details">
+                <div class="user-name d-flex">
+                    <div>
+                        Shah Rukh Khan
+                    </div>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <div class="available">
+                        Active
+                    </div>
+                </div>
+                <div class="details-element">
+                    Associate - 2
+                </div>
+                <div class="details-element">
+                    GMAS INDIA
+                </div>
+                <div class="details-element">
+                    Email id : shahrukh@home.com
+                </div>
+                <div class="details-element">
+                    Number of apps deployed : 4
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="deploy-container border-1">
+        <div class="deploy-card">
+            <div class="deploy-description font-size-2 font-weight-bold">
+                Struggling to deploy your applications?
+            </div>
+            <div>
+                Deployment made easy!!
+                <div class="font-weight-300 font-style-italic">Just a click away</div>
+            </div>
+
+        </div>
+        <div class="deploy-card">
+            <div>
+                &nbsp;
+            </div>
+            <div class="">
+                <button class="btn-primary deploy-button-white btn">
+                    Deploy
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<Deployments></Deployments>
 @code {
 
 }
