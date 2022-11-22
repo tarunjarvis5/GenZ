@@ -191,3 +191,137 @@ article{
 .application-heading{
     margin-bottom: 1rem;
 }
+
+.link-color{
+    color:blue;
+}
+
+.margin-right-2{
+    margin-right: 2rem;
+}
+
+.deploy-form{
+    width: 40%;
+    height: auto;
+    border: 2px solid;
+    box-sizing: border-box;
+    border-color: #eee;
+    justify-content: center;
+    padding: 30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display: flex;
+}
+
+.cloud-icon{
+    font-size:100px;
+    color:#0020c9;
+}
+
+.icon-div{
+    display:flex;
+    justify-content:center;
+}
+
+.form-value{
+    width: 100%;
+    padding: 5px;
+    border-radius: 1%;
+    border: 2px solid #c5c2c2;
+}
+
+.form-value:focus{
+    border: 2px solid #000;
+}
+.form-field{
+    padding-top:20px;
+    display: flex;
+    align-items: center;
+}
+.form-label{
+    margin: 0 !important;
+    display: inline-flex;
+    text-align:center;
+}
+.deploy-button{
+    width : 150px;
+    height: 40px;
+    background-color: #0020c9;
+    color: #fff;
+    border:0px;
+}
+.deploy-button-white{
+    color:#0020c9;
+    background-color: #fff;
+}
+.localhost{
+    position:absolute;
+    left:78%;
+    display:inline-block;
+    width: 30%;
+}
+.deploy-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.font-size-2{
+    font-size:2rem;
+}
+.font-weight-300{
+    font-weight:300;
+}
+.font-style-italic{
+    font-style: italic;
+}
+.headers{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+.headers > div{
+    font-weight:bold;
+}
+.user-image{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.users-table{
+    margin: 2rem 0;
+}
+
+.user.headers > div{
+    font-weight:normal;
+}
+.user{
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+.user:hover{
+    background:#eee; 
+}
+.user > div{
+    display:flex;
+    align-items: center;
+}
+.user-select-button{
+    display:flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width : 1200px){
+    .deploy-form{
+        width: 60%;
+    }
+}
+@media screen and (max-width : 1000px) {
+    .deploy-form {
+        width: 50%;
+    }
+}
+@media screen and (max-width : 900px) {
+    .deploy-form {
+        width: 65%;
+    }
+}
