@@ -31,8 +31,13 @@
                 <InputText class="form-value" id="customurl" placeholder="Custom Url"
                            @bind-Value="DeployFormModel.CustomUrl" />
             </div>
-            <ValidationMessage class="validation-message" For="@(() => DeployFormModel.CustomUrl)" />
+            <label class="localhost"> .localhost</label>
         </div>
+            <div class="row">
+                <label class="col-4"></label>
+                <label class="col-8" style="font-size:x-small;color:green">Eg: app1(or)app1.domain</label>
+            </div>
+            <ValidationMessage class="validation-message" For="@(() => DeployFormModel.CustomUrl)" />
 
         <div class="button-div" style="display:flex; justify-content:flex-end;margin-top:30px;">
             <button class="deploy-button" type="submit">Deploy</button>
