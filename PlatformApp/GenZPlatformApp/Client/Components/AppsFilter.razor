@@ -1,0 +1,23 @@
+﻿<div>
+    <div class="container">
+        <div class="filter-container">
+            <select style="padding:5px;border-radius:1px" @bind=@selectedvalue>
+                @foreach (var value in filtervalues)
+                {
+                    <option value="@value">@value</option>
+                }
+            </select>
+            <input style="padding:5px;border-radius:1px" type="text" placeholder="Search Apps" />
+            <div>
+                <button class="deploy-button" onclick="SearchApp"> Search</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<Apps></Apps>
+
+@code {
+    public string[] filtervalues = new string[] { "AppName", "Technology" };
+    private string selectedvalue = "AppName";
+}

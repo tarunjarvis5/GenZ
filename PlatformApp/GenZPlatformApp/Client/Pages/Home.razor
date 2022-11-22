@@ -2,9 +2,11 @@
 @inject HttpClient HttpClient;
 @using GenzPlatformApp.Data.Model;
 @using System.Text.Json;
+@using GenZPlatformApp.Client.Components;
 @*@inject Blazored.LocalStorage.ILocalStorageService localstorage*@
 
-<button @onclick = "GetMyAppData" ></button>
+@*<button @onclick = "GetMyAppData" ></button>*@
+<Profile></Profile>
 
 @code {
 
