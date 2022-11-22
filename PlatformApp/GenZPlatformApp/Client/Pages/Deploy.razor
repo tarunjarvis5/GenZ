@@ -1,7 +1,47 @@
 ﻿@page "/deploy"
+@inherits GenZPlatformApp.Client.ViewModels.DeployedDetailsBase;
 
-<h3>Deploy</h3>
+<div class="deploy-form">
+    <EditForm Model="@DeployFormModel" Context="editFormContext" OnValidSubmit="OnValidSubmit" style="width:100%">
+        <DataAnnotationsValidator />
+        <div class="icon-div">
+            <ion-icon class="cloud-icon" name="cloud-upload"></ion-icon>
+        </div>
+        <h3 style="text-align:center">Deploy Here</h3>
 
+        <div class="form-field-row">
+            <label class="form-label col-4">Github Link</label>
+            <div class="col-8">
+                <InputText class="form-value" id="githublink" placeholder="Github Link"
+                           @bind-Value="DeployFormModel.GitHubLink" />
+            </div>
+            <ValidationMessage class="validation-message" For="@(() => DeployFormModel.GitHubLink)" />
+        </div>
+        <div class="form-field-row">
+            <label class="form-label col-4">App Name</label>
+            <div class="col-8">
+                <InputText class="form-value" id="appname" placeholder="App Name"
+                           @bind-Value="DeployFormModel.AppName" />
+            </div>
+            <ValidationMessage class="validation-message" For="@(() => DeployFormModel.AppName)" />
+        </div>
+        <div class="form-field-row">
+            <label class="form-label col-4">Custom Url</label>
+            <div class="col-8">
+                <InputText class="form-value" id="customurl" placeholder="Custom Url"
+                           @bind-Value="DeployFormModel.CustomUrl" />
+            </div>
+            <ValidationMessage class="validation-message" For="@(() => DeployFormModel.CustomUrl)" />
+        </div>
+
+        <div class="button-div" style="display:flex; justify-content:flex-end;margin-top:30px;">
+            <button class="deploy-button" type="submit">Deploy</button>
+        </div>
+    </EditForm>
+</div>
 @code {
-
+    private async Task OnValidSubmit(EditContext context)
+    {
+        var link = DeployFormModel.GitHubLink;
+    }
 }
