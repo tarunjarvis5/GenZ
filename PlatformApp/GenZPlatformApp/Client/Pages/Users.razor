@@ -1,5 +1,7 @@
 ﻿@page "/user"
+@inject HttpClient HttpClient;
 @using GenZPlatformApp.Client.Components
+@using GenzPlatformApp.Data.Model
 
 <div class="container">
     <div class="d-flex justify-content-end">
@@ -20,18 +22,25 @@
                 &nbsp;
             </div>
         </div>
-        <UserCard></UserCard>
-        <UserCard></UserCard>
-        <UserCard></UserCard>
-        <UserCard></UserCard>
-        <UserCard></UserCard>
-        <UserCard></UserCard>
-        <UserCard></UserCard>
-        <UserCard></UserCard>
+        @{
+            foreach (var item in UserCollection)
+            {
+                <UserCard UserName=@item.FirstName ></UserCard>
 
+            }
+
+        }
+        
     </div>
 </div>
 
 @code {
+
+    List<User> UserCollection = new List<User>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        UserCollection = await HttpClient.GetFromJsonAsync<List<User>>($"Home/Users");
+    }
 
 }
