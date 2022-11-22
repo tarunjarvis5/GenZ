@@ -17,11 +17,11 @@ namespace GenZPlatformApp.Server.Controllers
 
 
         [HttpGet("UserDeployedApps/{id}")]
-        public ActionResult Get_UserDeployedApps(int id)
+        public List<DeployedDetails> Get_UserDeployedApps(int id)
         {
             var Apps_lst = db.DeployedDetails.Where(o => o.UserId == id).ToList();
 
-            return Ok(Apps_lst);
+            return Apps_lst;
         }
 
         [HttpGet("Users")]
@@ -30,6 +30,24 @@ namespace GenZPlatformApp.Server.Controllers
             List<User> users = db.Users.ToList();   
 
             return users;
+        }
+
+        [HttpGet("Users/{id}")]
+        public User GetUserDetails(int id)
+        {
+            User user = db.Users.Where(o => o.UserId == id).First();
+
+            return user;
+        }
+
+        [HttpPost("AddUser")]
+        public void PostDeployApp(User user)
+        {
+
+            db.Users.Add(user);
+            db.SaveChanges();
+
+            
         }
 
     }

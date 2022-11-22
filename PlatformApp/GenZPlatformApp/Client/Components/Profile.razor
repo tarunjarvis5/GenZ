@@ -1,4 +1,7 @@
-﻿@inject NavigationManager NavManager;
+﻿@using GenzPlatformApp.Data.Model
+@inject NavigationManager NavManager;
+@inject HttpClient HttpClient;
+
 
 <div class="profile card container">
     <div class="d-flex border-1 w-50 margin-right-2">
@@ -11,7 +14,7 @@
             <div class="details">
                 <div class="user-name d-flex">
                     <div>
-                        Shah Rukh Khan
+                        @UserDetail.FirstName
                     </div>
                     <div>
                         &nbsp;
@@ -30,7 +33,7 @@
                     Email id : shahrukh@home.com
                 </div>
                 <div class="details-element">
-                    Number of apps deployed : 4
+                    Number of apps deployed : @UserDeployedAppList.Count
                 </div>
             </div>
         </div>
@@ -51,7 +54,7 @@
                 &nbsp;
             </div>
             <div class="">
-                <button class="btn-primary deploy-button-white btn" >
+                <button @onclick=@(() =>  NavManager.NavigateTo("/deploy") ) class="btn-primary deploy-button-white btn" >
                     Deploy
                 </button>
             </div>
@@ -60,5 +63,15 @@
 </div>
 <Deployments></Deployments>
 @code {
+    int userid = 1;
+
+    User UserDetail = new User();
+    List<DeployedDetails> UserDeployedAppList = new List<DeployedDetails>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        UserDeployedAppList = await HttpClient.GetFromJsonAsync<List<DeployedDetails>>($"Home/UserDeployedApps/{userid}");
+        UserDetail = await HttpClient.GetFromJsonAsync<User>($"Home/Users/{userid}");
+    }
 
 }

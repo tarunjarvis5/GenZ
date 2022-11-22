@@ -1,17 +1,30 @@
-﻿<div class="deployment-class my-5">
+﻿@using GenzPlatformApp.Data.Model
+@inject HttpClient HttpClient;
+
+
+<div class="deployment-class my-5">
     <div class="container">
         <h3 class="py-3">Latest Deployements</h3>
         <div class="d-grid grid-container">
-            <DeployedAppCard></DeployedAppCard>
-            <DeployedAppCard></DeployedAppCard>
-            <DeployedAppCard></DeployedAppCard>
-            <DeployedAppCard></DeployedAppCard>
-            <DeployedAppCard></DeployedAppCard>
-            <DeployedAppCard></DeployedAppCard>
+            @{
+                foreach (var item in UserDeployedAppList)
+                {
+                    <DeployedAppCard AppName=@item.ContainerName url=@item.URL ></DeployedAppCard>
+                }
+             }
         </div>
     </div>
 </div>
 
 @code {
+
+    int userid = 1;
+
+    List<DeployedDetails> UserDeployedAppList = new List<DeployedDetails>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        UserDeployedAppList = await HttpClient.GetFromJsonAsync<List<DeployedDetails>>($"Home/UserDeployedApps/{userid}");
+    }
 
 }
