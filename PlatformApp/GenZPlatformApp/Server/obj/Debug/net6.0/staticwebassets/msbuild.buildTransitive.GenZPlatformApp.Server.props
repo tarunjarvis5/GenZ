@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\GenZPlatformApp.Server.props" />
+</Project>

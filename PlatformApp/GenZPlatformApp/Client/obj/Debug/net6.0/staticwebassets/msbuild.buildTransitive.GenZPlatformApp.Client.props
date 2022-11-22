@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\GenZPlatformApp.Client.props" />
+</Project>

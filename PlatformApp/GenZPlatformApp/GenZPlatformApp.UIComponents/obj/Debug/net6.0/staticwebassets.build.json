@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "J1Tek/kYm6CD1+PeYHqa3KwGP+GbnaqdsJgmD+Z73+Y=",
+  "Source": "GenZPlatformApp.UIComponents",
+  "BasePath": "_content/GenZPlatformApp.UIComponents",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GenZPlatformApp.UIComponents\\wwwroot",
+      "Source": "GenZPlatformApp.UIComponents",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\wwwroot\\",
+      "BasePath": "_content/GenZPlatformApp.UIComponents",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\obj\\Debug\\net6.0\\scopedcss\\bundle\\GenZPlatformApp.UIComponents.styles.css",
+      "SourceId": "GenZPlatformApp.UIComponents",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/GenZPlatformApp.UIComponents",
+      "RelativePath": "GenZPlatformApp.UIComponents.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\obj\\Debug\\net6.0\\scopedcss\\bundle\\GenZPlatformApp.UIComponents.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GenZPlatformApp.UIComponents.bundle.scp.css",
+      "SourceId": "GenZPlatformApp.UIComponents",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/GenZPlatformApp.UIComponents",
+      "RelativePath": "GenZPlatformApp.UIComponents.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GenZPlatformApp.UIComponents.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\wwwroot\\background.png",
+      "SourceId": "GenZPlatformApp.UIComponents",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\wwwroot\\",
+      "BasePath": "_content/GenZPlatformApp.UIComponents",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "GenZPlatformApp.UIComponents",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\GenZ\\PlatformApp\\GenZPlatformApp\\GenZPlatformApp.UIComponents\\wwwroot\\",
+      "BasePath": "_content/GenZPlatformApp.UIComponents",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}
