@@ -23,9 +23,13 @@
             </div>
         </div>
         @{
+            
+            
             foreach (var item in UserCollection)
             {
-                <UserCard UserName=@item.FirstName ></UserCard>
+                <CascadingValue Value="this">
+                    <UserCard UserName=@item.FirstName Id=@item.UserId.ToString() ></UserCard>
+                </CascadingValue>
 
             }
 
@@ -41,6 +45,10 @@
     protected override async Task OnInitializedAsync()
     {
         UserCollection = await HttpClient.GetFromJsonAsync<List<User>>($"Home/Users");
+    }
+    public void RefreshState()
+    {
+        this.StateHasChanged();
     }
 
 

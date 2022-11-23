@@ -1,6 +1,8 @@
 ﻿@using GenzPlatformApp.Data.Model
+@using System.Text.Json
 @inject NavigationManager NavManager;
 @inject HttpClient HttpClient;
+@inject Blazored.LocalStorage.ILocalStorageService localstorage
 
 
 <div class="profile card container">
@@ -63,15 +65,30 @@
 </div>
 <Deployments></Deployments>
 @code {
-    int userid = 1;
+    
+    List<User> user = new List<User>();
+
 
     User UserDetail = new User();
     List<DeployedDetails> UserDeployedAppList = new List<DeployedDetails>();
 
     protected override async Task OnInitializedAsync()
     {
-        UserDeployedAppList = await HttpClient.GetFromJsonAsync<List<DeployedDetails>>($"Home/UserDeployedApps/{userid}");
-        UserDetail = await HttpClient.GetFromJsonAsync<User>($"Home/Users/{userid}");
+        if (await localstorage.GetItemAsync<string>("User") is null)
+        {
+            user.Add(new User() { UserId = 1 });
+
+            await localstorage.SetItemAsync("User", JsonSerializer.Serialize(user));
+        }
+
+        user = JsonSerializer.Deserialize<List<User>>(await localstorage.GetItemAsync<string>("User"));
+
+        UserDeployedAppList = await HttpClient.GetFromJsonAsync<List<DeployedDetails>>($"Home/UserDeployedApps/{user[0].UserId}");
+        UserDetail = await HttpClient.GetFromJsonAsync<User>($"Home/Users/{user[0].UserId}");
     }
+
+    
+        
+
 
 }

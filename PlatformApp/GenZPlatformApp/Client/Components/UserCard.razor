@@ -1,4 +1,10 @@
-﻿<div class="user headers">
+﻿@using System.Text.Json
+@using GenzPlatformApp.Data.Model
+@inject Blazored.LocalStorage.ILocalStorageService localstorage
+@inject NavigationManager NavManager;
+
+
+<div class="user headers">
     <div class="user-image">
         <img src="/Images/profile.jpg" class="user-image"/>
     </div>
@@ -9,7 +15,7 @@
         Associate-2
     </div>
     <div class="user-select-button">
-        <button class="btn-success btn">Select</button>
+        <button @onclick="SelectUser" disabled=@selectSwitch class="btn-success btn">Select</button>
     </div>
  </div>
 
@@ -17,5 +23,45 @@
 
     [Parameter]
     public string UserName { get; set; }
+
+    [Parameter]
+    public string Id { get; set; }
+    [CascadingParameter]
+    public GenZPlatformApp.Client.Pages.Users ParentObject { get; set; }
+
+    List<User> user = new List<User>();
+
+    bool selectSwitch { get; set; } = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (await localstorage.GetItemAsync<string>("User") is null)
+        {
+            user.Add(new User() { UserId = 1 });
+
+            await localstorage.SetItemAsync("User", JsonSerializer.Serialize(user));
+        }
+
+        user = JsonSerializer.Deserialize<List<User>>(await localstorage.GetItemAsync<string>("User"));
+
+        selectSwitch = user[0].UserId == Int32.Parse(Id) ? true : false;
+
+    }
+
+
+    public async void SelectUser()
+    {
+        user[0].UserId = Int32.Parse(Id);
+
+        await localstorage.SetItemAsync<string>("User", JsonSerializer.Serialize(user) );
+
+        user = JsonSerializer.Deserialize<List<User>>(await localstorage.GetItemAsync<string>("User"));
+
+        selectSwitch = user[0].UserId == Int32.Parse(Id) ? true : false;
+
+        StateHasChanged();
+        ParentObject.RefreshState();
+        NavManager.NavigateTo("/");
+    }
 
 }
